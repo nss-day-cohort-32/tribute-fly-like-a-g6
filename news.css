@@ -1,0 +1,58 @@
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #265182;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li#robinA a:hover {
+    background-image: url(images/robina.jpg);
+  }
+
+  li#robinB a:hover {
+      background-image: url(images/robinb.jpg);
+  }
+
+  li#robinC a:hover {
+      background-image: url(images/robinc.jpg);
+  }
+
+  li#robinD a:hover {
+      background-image: url(images/robind.jpg)
+  }
+
+header {
+    border: solid 4px gray;
+    background-color: antiquewhite;
+}
+
+div.newsContent {
+    display: flex;
+    flex-direction: row;
+    border-top: solid 1px burlywood;
+    border-bottom: solid 1px burlywood;
+    background-color: antiquewhite;
+}
+body {
+    background-color: #FF8444;
+    color: #265182;
+
+}
+.active {
+    background-color: gold;
+}
