@@ -53,15 +53,5 @@ body {
     color: #265182;
 
 }
-#wholePage {
-    background: linear-gradient(
-        to right,
-        violet,
-        red,
-        blue,
-        orange
-    )
-    background-position: left;
-    
-}
+
 
