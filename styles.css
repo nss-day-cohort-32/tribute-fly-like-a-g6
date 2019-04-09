@@ -1,0 +1,11 @@
+nav ul {
+    display: flex;
+    justify-content: space-around;
+}
+header {
+    border: solid 4px gray;
+    background-color: 
+}
+.active {
+    background-color: gold;
+}
