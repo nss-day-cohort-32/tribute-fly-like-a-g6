@@ -61,6 +61,17 @@ h3 {
     color: orange;
 }
 
+h3 a {
+    font-size: 1em;
+    padding-left: 40px;
+    color: orange;
+    text-decoration: none;
+}
+
+h3 a:hover {
+    color: teal;
+}
+
 hr {
     border: 0;
     height: 1px;
@@ -159,7 +170,7 @@ a:hover {
     margin-top: 20px;
     width: 100%;
     font-family: 'Dodko', cursive;
-    font-size: 24px;
+    font-size: 16px;
     text-transform: uppercase;
     text-align: center;
 }
