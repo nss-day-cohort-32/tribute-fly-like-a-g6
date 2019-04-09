@@ -2,15 +2,27 @@ body {
     display: flex;
     height: 100%;
     flex-direction: column;
-    background-color: rgba(255, 235, 222, 0.281);
+    background-color: #c2401c0e;
     font-family: Arial, Helvetica, sans-serif;
     
 }
 
+p::selection {
+    background-color: #c2401c73;
+}
+
+li::selection {
+    background-color: #c2401c73;
+}
+
+h1::selection {
+    background-color: #c2401c73;
+}
+
 .top {
-    height: 35px;
+    height:s 35px;
     width: 100%;
-    background-color: rgba(43, 74, 76, 0.575);
+    background-color: #324043;
     z-index: 10000;
     margin: 0;
     position: relative;
@@ -36,7 +48,7 @@ body {
 header {
     display: flex;
     flex-direction: row;
-    background-color: rgba(102, 173, 179, 0.904);
+    background-color: #324043bd;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -52,7 +64,11 @@ header {
 }
 
 h1{
-    color: rgb(202, 78, 1, .900);
+    color: #c2401c;
+    margin-top: 80px;
+    text-decoration: none;
+    margin-bottom: 10px;
+
 }
 
 header nav {
@@ -71,8 +87,9 @@ header a {
     margin-top: 16px;
     position: relative;
     padding: 3px;
-    border: 2px solid rgba(43, 74, 76, 0.575);
+    border: 2px solid rgba(20, 35, 36, 0.829);
     transition: box-shadow .3s;
+    background-color: #324043d2;
 }
 
 header a:hover {
@@ -102,34 +119,48 @@ header a:active{
 
 .heading img {
     position: relative;
-    margin-top: 62px;
+    margin-top: 10px;
+    
+    margin: auto;
     padding: 2px;
-    width: 100%;
+    margin-bottom: 20px;
+    width: 66%;
 }
 .heading h1{
     justify-content: center;
     text-align: center;
     align-content: center;
-    text-decoration: underline;
-    font-size: 60px;
+    font-size: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .info {
     display: flex;
     justify-content: center;
     align-content: center;
-    border: 2px solid rgb(202, 78, 1);
+    border: 2px solid #c2401c;
     width: 30%;
+    margin-top: 200px;
     margin: auto;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 3px 9px 0 rgba(0, 0, 0, 0.7);
     border-radius: 1%;
     background-color: rgba(255, 255, 255, 0.800);
+    color: rgb(0, 0, 0, .6);
+    transition: transform .6s, box-shadow .8s, color .8s;
 }
+
+.info:hover {
+    transform: scale(1.1) translateY(20px) ;
+    box-shadow: 0 1px 8px 0 rgba(0, 0, 0, 0.3), 0 3px 16px 0 rgba(0, 0, 0, 0.5);
+    color: rgb(0, 0, 0, .87)
+}
+
+
 
 .wife {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: flex-end;
     position: relative;
     margin-bottom: 100px;
@@ -138,15 +169,29 @@ header a:active{
 .wife div {
     display: flex;
     flex-direction: column;
-    border: 2px solid rgb(202, 78, 1);
+    border: 2px solid #c2401c;
     height: 400px;
-    margin: 4px;
-    justify-content: space-between;
+    margin: 3px;
+    justify-content: space-around;
     align-content: center;
     margin-bottom: 20px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 3px 9px 0 rgba(0, 0, 0, 0.7);
     border-radius: 1%;
-    background-color: rgba(255, 255, 255, 0.800);
+    background-color: rgba(255, 255, 255, 0.600);
+    transition: transform .6s, box-shadow .8s, color .8s, background-color .6s;
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.wife div:hover {
+    transform: scale(1.25);
+    box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.3), 0 0 35px 0 rgba(0, 0, 0, 0.15);
+    color: rgba(0, 0, 0, 0.87);
+    background-color: white;
+}
+
+.wife .test:hover {
+    transform: scale(2);
+    box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.15), 0 0 70px 0 rgba(0, 0, 0, 0.07);
 }
 
 .wife img {
@@ -164,12 +209,13 @@ header a:active{
 .title {
     text-align: center;
     font-size: 65px;
-    color: rgb(202, 78, 1, 0.900);
+    color: #c2401c;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 footer {
     display: flex;
-    background-color: rgb(102, 173, 179, .920);
+    background-color: #324043dc;
     margin: 0px;
     padding: 0px;
     color: black;
@@ -193,4 +239,8 @@ footer a{
     margin-bottom: 2px;
     align-content: center;
     margin-top: 7px;
+}
+
+.fam {
+    width: 70%;
 }
