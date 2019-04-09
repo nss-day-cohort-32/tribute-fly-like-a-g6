@@ -29,11 +29,11 @@ nav a {
     text-decoration: none;
     font-size: 1.6em;
     text-transform: uppercase;
-    margin-right: 2em;
+    margin: 0 2em 1em 0;
 }
 
 nav a:hover {
-    color: #c2401c;
+    color: #ebc726;
 }
 
 
@@ -67,15 +67,27 @@ nav a:hover {
     justify-content: center;
 }
 
-.robin-png {
-    width: 5em;
+.robin-head {
+    text-align: center;
+}
+
+#robin-png {
+    width: 4em;
     position: absolute;
+}
+
+.button {
+    background-color: #ebc726;
+    font-size: 1em;
+    color: white;
+    padding: 0.4em;
+    font-weight: 500;
 }
 
 .info {
     display: flex;
     flex-flow: row nowrap;
-    margin-bottom: 2em;
+    margin: 2em 0 2em 0;
 }
 
 .info div {
@@ -114,6 +126,16 @@ nav a:hover {
     border: 3px solid #c2401c;
 }
 
+/* .country {
+    border: 3px solid #ebc726;
+    padding: 2em;
+}
+
+.aliases {
+    border: 3px solid #ebc726;
+    padding: 2em;
+} */
+
 h2 {
     color: #c2401c;
 }
@@ -133,5 +155,5 @@ footer a {
 }
 
 footer a:hover {
-    color: #c2401c;
+    color: #ebc726;
 }
