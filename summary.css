@@ -1,0 +1,159 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}   
+
+p {
+    color: gray;
+}
+    
+body {
+    background-color: whitesmoke;
+    margin: 0;
+}
+
+nav {
+    background-color: #324043;
+    height: 4em;
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    flex-flow: row wrap;
+    list-style-type: none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.6em;
+    text-transform: uppercase;
+    margin: 0 2em 1em 0;
+}
+
+nav a:hover {
+    color: #ebc726;
+}
+
+
+/* main flex container */
+.summary-main {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 3em 0 3em 0;
+}
+
+.summary-portrait {
+    margin: 0 3em 0 3em;
+    flex: 1 35em;
+}
+
+.summary-portrait h2 {
+    margin-top: 0;
+}
+
+.summary-aliases ul {
+    list-style-type: none;
+}
+
+.summary-aside {
+    margin: 0 3em 0 3em;
+    padding: 1em 3em 1em 3em;
+    box-shadow: rgb(156, 154, 154) 0px 0px 15px 0px;  
+    flex: 1 10em;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.robin-head {
+    text-align: center;
+}
+
+#robin-png {
+    width: 4em;
+    position: absolute;
+}
+
+.button {
+    background-color: #ebc726;
+    font-size: 1em;
+    color: white;
+    padding: 0.4em;
+    font-weight: 500;
+}
+
+.info {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 2em 0 2em 0;
+}
+
+.info div {
+    margin-right: 2em;
+}
+
+.summary-aside p {
+    color: rgb(58, 58, 58);
+    display: flex;
+    justify-content: center;
+}
+
+.collabs {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.collab-div {
+    margin: 0.5em;
+}
+
+.collab-img {
+    width: 15em;
+    border: 3px solid #c2401c;
+}
+
+.collab-img:hover { 
+    transform: scale(1.06); 
+}
+
+.summary-image {
+    width: 20em;
+    float: left;
+    margin-right: 1em;
+    border: 3px solid #c2401c;
+}
+
+/* .country {
+    border: 3px solid #ebc726;
+    padding: 2em;
+}
+
+.aliases {
+    border: 3px solid #ebc726;
+    padding: 2em;
+} */
+
+h2 {
+    color: #c2401c;
+}
+
+footer {
+    background-color: #324043;
+    height: 2em;
+    display: flex;
+    align-items: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 2em;
+    text-transform: uppercase;
+}
+
+footer a:hover {
+    color: #ebc726;
+}
