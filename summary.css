@@ -167,6 +167,7 @@ footer {
     height: 3em;
     display: flex;
     align-items: center;
+    justify-content: flex-start;
 }
 
 footer a {
@@ -183,4 +184,9 @@ footer a:hover {
 .center-robin {
     text-align: center;
     padding: 1em;
+}
+
+.fab {
+    color: white;
+    margin-left: 1.6em;
 }
