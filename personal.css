@@ -167,7 +167,7 @@ header a:active{
 }
 
 .cardcontainer {
-    perspective: 700;
+    perspective: 700px;
 }
 
 .card {
@@ -182,7 +182,7 @@ header a:active{
     margin-bottom: 20px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4), 0 3px 9px 0 rgba(0, 0, 0, 0.7);
     border-radius: 1%;
-    background-color: rgba(255, 255, 255, 0.600);
+    background-color: rgba(255, 255, 255, 0);
     transition: transform .6s ease, box-shadow .8s, color .8s, background-color .6s;
     color: rgba(0, 0, 0, 0.6);
     transform-style: preserve-3d;
@@ -196,7 +196,7 @@ header a:active{
     top: 0;
     left: 0;
     backface-visibility: hidden;
-    background-color: rgba(255, 255, 255, 0.600);
+    background-color: rgba(255, 255, 255, 1);
 }
 
 .b1 {
@@ -212,11 +212,11 @@ header a:active{
 }
 
 
-.card:hover {
+.cardcontainer:hover  .card {
     transform: rotateY(180deg);
     box-shadow: 0 0 25px 0 rgba(0, 0, 0, 0.3), 0 0 35px 0 rgba(0, 0, 0, 0.15);
     color: rgba(0, 0, 0, 0.87);
-    background-color: white;
+    /* background-color: white; */
     
 }
 
@@ -283,7 +283,7 @@ label {
 
 .btn {
     display: inline-block;
-    height: 35px;
+    height: 36px;
     width: 120px;
     background-color: lightgray;
     border-radius: 50px;
@@ -296,7 +296,7 @@ label {
     width: 80px;
     background-color: rgba(169, 169, 169, 0.479);
     content: "";
-    top: 39px;
+    top: 41px;
     left: 20px;
 }
 
@@ -309,7 +309,7 @@ label {
     content: "";
     height: 32px;
     width: 32px;
-    top: 26px;
+    top: 27px;
     left: 3px;
     background: rgb(92, 92, 92);
     border-radius: 50px;
